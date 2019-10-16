@@ -1,12 +1,14 @@
 import React from "react";
 import styled from 'styled-components';
 import Layout from '../components/layout';
+import SEO from '../components/seo';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 
 export default ({ data }) => (
   <main>
     <Layout>
+      <SEO title="Coming Soon"/>
       <Wrapper>
         <StyledImg key={data.file.id} fadeIn={true} fluid={data.file.childImageSharp.fluid} />
         <Soon>Coming Soon.</Soon>

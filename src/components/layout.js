@@ -18,9 +18,9 @@ const Layout = ({ children }) => {
 
     return (
         <div>
-            <Content>
+        <Content>
                 <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet"/>
-                {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+                <Header siteTitle={data.site.siteMetadata.title} />
                 <Stuff>
                     {children}
                 </Stuff>
