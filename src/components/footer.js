@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-class Header extends React.Component {
+class Footer extends React.Component {
     render() {
         return (
 
             <StyleWrapper>
-                <ContentWrapper>  </ContentWrapper>
+                <ContentWrapper> </ContentWrapper>
             </StyleWrapper>
         );
     }
@@ -14,7 +14,7 @@ class Header extends React.Component {
 }
 
 
-export default Header;
+export default Footer;
 
 const StyleWrapper = styled.div`
   height: 100px;
@@ -29,6 +29,6 @@ const ContentWrapper = styled.div`
   background: 	#000000;
   color: white;
   padding-top: 30px;
-  font-family: 'Concert One', cursive;
+  font-family: 'Rokkitt', serif;
   text-align: center;
 `
